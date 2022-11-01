@@ -13,7 +13,7 @@ const getAttraction = async (req, res) => {
 }
 
 const getSchedule = async (req, res) => {
-  const schedule = await Schedule.find({
+  const schedule = await Schedule.findOne({
     _id: req.params.scheduleid
   }).populate('attractions')
   res.json(schedule)
@@ -32,10 +32,10 @@ const deleteSchedule = async (req, res) => {
 }
 
 const updateSchedule = async (req, res) => {
+  console.log("This is req.body._id "+ req.body._id)
+  console.log("This is req.params.scheduleid "+ req.params.scheduleid)
   const updatedSchedule = await Schedule.findByIdAndUpdate(
-    {
-      _id: req.params.scheduleid
-    },
+     req.params.scheduleid,
     //Check that this line works once front-end is ready to add an attraction to the schedule
     { $push: { attractions: req.body._id } }
   )

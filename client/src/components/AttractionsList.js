@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 
 
 const BASE_URL = '/api'
-const AttractionsList = () => {
+const AttractionsList = (props) => {
   const [attractions, setAttractions] = useState([])
 
   //axios call to grab attractions
@@ -21,7 +21,7 @@ useEffect(()=>{
     <div>
       <div className="container">
         {attractions.map((attraction) => (
-          <AttractionCard key={attraction._id} attraction={attraction} />
+          <AttractionCard key={attraction._id} attraction={attraction} setSchedule={props.setSchedule} scheduleId={props.schedule._id} />
         ))}
       </div>
     </div>

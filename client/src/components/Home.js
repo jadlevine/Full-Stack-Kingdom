@@ -14,7 +14,7 @@ const Home = () => {
         <Schedule schedule={schedule} setSchedule={setSchedule}/>
       </div>
       <div id="attractionList">
-        <AttractionsList schedule={schedule}/>
+        <AttractionsList setSchedule={setSchedule} schedule={schedule}/>
       </div>
     </div>
   )

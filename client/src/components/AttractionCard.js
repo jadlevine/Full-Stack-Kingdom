@@ -2,16 +2,17 @@ import axios from 'axios'
 import React from 'react'
 
 const BASE_URL = '/api'
-const AttractionCard = ({attraction}) => {
+const AttractionCard = ({setSchedule,attraction,scheduleId}) => {
 
   //We are here
-// const addToList=async(e)=>{
-//   e.preventDefault()
-//   const newAttraction=await axios.put(`${BASE_URL}/schedule`)
+const addToList=async(e)=>{
+  e.preventDefault()
 
-
-// }
-
+  const newAttraction=await axios.put(`${BASE_URL}/schedule/${scheduleId}`,attraction)
+  const updateList=await axios.get(`${BASE_URL}/schedule/${scheduleId}`)
+  console.log(updateList)
+  setSchedule(updateList.data)
+}
 
 
   return (
@@ -22,7 +23,7 @@ const AttractionCard = ({attraction}) => {
     <h2>Rating: {attraction.rating}</h2>
     <h2>Current Wait Time: {attraction.waitTime}</h2>
     <div className="button-container">
-    <button>Add To List</button>
+    <button onClick={addToList}>Add To List</button>
     <button>See Attraction Details</button>
     </div>
   

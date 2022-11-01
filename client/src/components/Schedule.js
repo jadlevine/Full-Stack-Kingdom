@@ -26,6 +26,8 @@ const handleSubmit= async (e)=>{
   setFormState(initialState)
 }
 
+
+
   return (
   <div>
   <div>No Schedule Yet</div>
@@ -44,7 +46,7 @@ const handleSubmit= async (e)=>{
 
 <ul>List Of Attractions:
 {props.schedule?.attractions?.map((attraction)=>(
-  <li>{attraction}</li>
+  <li>{attraction.name}</li>
 ))}
 </ul>
 

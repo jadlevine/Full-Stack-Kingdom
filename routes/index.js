@@ -10,7 +10,7 @@ router.get('/attractions', controller.getAllAttractions)
 
 router.get('/attractions/:attractionid', controller.getAttraction)
 
-router.get('/schedule', controller.getSchedule)
+router.get('/schedule/:scheduleid', controller.getSchedule)
 
 router.post('/schedule', controller.createSchedule)
 
