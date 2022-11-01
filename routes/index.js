@@ -16,4 +16,8 @@ router.post('/schedule', controller.createSchedule)
 
 router.delete('/schedule/:scheduleid', controller.deleteSchedule)
 
-router.update('/schedule/:scheduleid', controller.updateSchedule)
+router.put('/schedule/:scheduleid', controller.updateSchedule)
+
+
+
+module.exports = router;
