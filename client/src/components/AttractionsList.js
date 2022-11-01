@@ -1,8 +1,9 @@
 import AttractionCard from './AttractionCard'
 import axios from 'axios'
-const BASE_URL = '/api'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
+
+const BASE_URL = '/api'
 const AttractionsList = () => {
   const [attractions, setAttractions] = useState([])
 
@@ -13,8 +14,9 @@ const AttractionsList = () => {
     console.log(response)
   }
 
+useEffect(()=>{
   getAllAttractions()
-
+},[])
   return (
     <div>
       <div className="container">
