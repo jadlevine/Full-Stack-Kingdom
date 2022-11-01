@@ -1,7 +1,17 @@
 import Schedule from './Schedule'
+import AttractionsList from './AttractionsList'
 
 const Home = () => {
-  return <div>This is home</div>
+  return (
+    <div>
+      <div id="schedule">
+        <Schedule />
+      </div>
+      <div id="attractionList">
+        <AttractionsList />
+      </div>
+    </div>
+  )
 }
 
 export default Home
