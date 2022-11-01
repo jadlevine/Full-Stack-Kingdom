@@ -2,7 +2,6 @@ import AttractionCard from './AttractionCard'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 
-
 const BASE_URL = '/api'
 const AttractionsList = (props) => {
   const [attractions, setAttractions] = useState([])
@@ -11,17 +10,22 @@ const AttractionsList = (props) => {
   const getAllAttractions = async () => {
     const response = await axios.get(`${BASE_URL}/attractions`)
     setAttractions(response.data)
-    console.log(response)
+    // console.log(response)
   }
 
-useEffect(()=>{
-  getAllAttractions()
-},[])
+  useEffect(() => {
+    getAllAttractions()
+  }, [])
   return (
     <div>
       <div className="container">
         {attractions.map((attraction) => (
-          <AttractionCard key={attraction._id} attraction={attraction} setSchedule={props.setSchedule} scheduleId={props.schedule._id} />
+          <AttractionCard
+            key={attraction._id}
+            attraction={attraction}
+            setSchedule={props.setSchedule}
+            scheduleId={props.schedule._id}
+          />
         ))}
       </div>
     </div>
