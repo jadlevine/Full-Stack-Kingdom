@@ -20,14 +20,19 @@ const AttractionCard = ({ setSchedule, attraction, scheduleId }) => {
     <div className="card">
       <div className="attraction-name">{attraction.name}</div>
       <div className="attraction-description">{attraction.description}</div>
-     <div className="attraction-details">
-      <div>Height Restriction: {attraction.heightRestriction} in</div>
-      <div>Rating:<br></br> <span className="details-large">{attraction.rating}</span></div>
-      <div>Current Wait Time:</div> 
-      <div><span className="details-large">{attraction.waitTime} min</span></div>
+      <div className="attraction-details">
+        <div>Height Restriction: {attraction.heightRestriction} in</div>
+        <div>
+          Rating:<br></br>{' '}
+          <span className="details-large">{attraction.rating}</span>
+        </div>
+        <div>Current Wait Time:</div>
+        <div>
+          <span className="details-large">{attraction.waitTime} min</span>
+        </div>
       </div>
       <div className="button-container">
-        <button onClick={addToList}>Add To List</button>
+        <button onClick={addToList}>Add To Schedule</button>
       </div>
     </div>
   )
