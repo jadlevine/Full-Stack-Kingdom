@@ -9,7 +9,7 @@ const AttractionCard = ({ setSchedule, attraction, scheduleId }) => {
 
     const validateSchedule = async () => {
       if (scheduleId === undefined) {
-        alert('Create your scheudle first, then add attractions')
+        alert('Create your schedule first, then add attractions')
       } else {
         const newAttraction = await axios.put(
           `${BASE_URL}/schedule/${scheduleId}`,
