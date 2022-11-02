@@ -9,11 +9,13 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className='home-container'>
       <div id="schedule">
+      <div className="section-title">SCHEDULE</div>
         <Schedule schedule={schedule} setSchedule={setSchedule}/>
       </div>
       <div id="attractionList">
+      <div className="section-title">ATTRACTIONS</div>
         <AttractionsList setSchedule={setSchedule} schedule={schedule}/>
       </div>
     </div>
