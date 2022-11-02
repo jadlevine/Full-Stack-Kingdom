@@ -1,7 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: "Bangers"
+}
+
 .App {
   text-align: center;
 }
 
 .card {
-  border: 2px solid black;
+  border: 2px dashed black;
+  background-color: rgb(187, 124, 246);
+  width: 17vw;
+}
+
+.page-title {
+  font-size: 10vh;
+  padding: 3vh 0 5vh 0;
+  letter-spacing: 0.5vw;
+  text-shadow: 5px 5px 10px rgb(236, 167, 7);
+}
+
+#schedule {
+  background-color: rgba(250, 250, 104, 0.925);
+  border-radius: 10px;
+}
+
+#attractionList {
+  background-color: rgba(243, 187, 84, 0.862);
+  border-radius: 10px;
+}
+
+header {
+  background-color: greenyellow;
+  border-radius: 7%;
+  position: sticky;
+  top: 0;
+}
+
+.section-title {
+  font-size: 4vh;
+  padding: 1.5;
+  margin: 3vh 0 3vh 0;
+  letter-spacing: 0.25vw;
+}
+
+nav {
+  padding: 1vh;
+  text-align: left;
+}
+
+a {
+  padding: 1vw;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr)); */
+  grid-gap: 1vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+button {
+  font-family: "Bangers";
+  font-size: 2vh;
+  padding: 1vh;
+  margin-top: 2vh;
+
+}
+
+.attraction-name {
+  font-size: 3vh;
+  letter-spacing: 0.5vw;
+  padding: 1vh;
+  color: rgba(232, 66, 5, 0.929)
+}
+
+.attraction-description {
+  font-size: 2vh;
+  font-style: italic;
+}
+
+.attraction-details {
+  font-size: 1.5vh;
+  line-height: 3vh;
+}
+
+.label {
+  font-size: 3vh;
+  margin: 2vh 0 1vh 0;
+  letter-spacing: 0.25vw;
+}
+
+.details-large {
+  font-size: 3vh;
+}
+
+.schedule-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 70vh;
+  position: sticky;
+  top: 25vh;
+  font-size:x-large;
+}
+
+p {
+  line-height: .5em;
+}
+
+.attraction-list {
+  border: 2px dashed black;
+  max-width: fit-content;
+  padding: 1vw;
+
+}
+
+.attraction-title {
+  font-size:xx-large;
+  text-decoration: underline;
 }

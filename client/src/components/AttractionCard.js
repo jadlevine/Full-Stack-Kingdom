@@ -18,13 +18,21 @@ const AttractionCard = ({ setSchedule, attraction, scheduleId }) => {
 
   return (
     <div className="card">
-      <h1>Name: {attraction.name}</h1>
-      <h2>Height Restriction: {attraction.heightRestriction}</h2>
-      <h2>Description: {attraction.description}</h2>
-      <h2>Rating: {attraction.rating}</h2>
-      <h2>Current Wait Time: {attraction.waitTime}</h2>
+      <div className="attraction-name">{attraction.name}</div>
+      <div className="attraction-description">{attraction.description}</div>
+      <div className="attraction-details">
+        <div>Height Restriction: {attraction.heightRestriction} in</div>
+        <div>
+          Rating:<br></br>{' '}
+          <span className="details-large">{attraction.rating}</span>
+        </div>
+        <div>Current Wait Time:</div>
+        <div>
+          <span className="details-large">{attraction.waitTime} min</span>
+        </div>
+      </div>
       <div className="button-container">
-        <button onClick={addToList}>Add To List</button>
+        <button onClick={addToList}>Add To Schedule</button>
       </div>
     </div>
   )

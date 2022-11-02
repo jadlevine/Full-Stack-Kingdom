@@ -1,8 +1,11 @@
 const About = () => {
   return (
     <div>
-      <h3>About:</h3>
-      <h1>Ride Guide</h1>
+      <h1>
+        Use this ride guide to create a schedule for your day at the park. Take
+        a look at all of our Attractions and add the ones you want to your
+        schedule.{' '}
+      </h1>
     </div>
   )
 }
