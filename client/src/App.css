@@ -5,3 +5,7 @@
 .card {
   border: 2px solid black;
 }
+
+header {
+  font-size: 2vh;
+}
