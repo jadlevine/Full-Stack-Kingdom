@@ -69,7 +69,7 @@ const Schedule = (props) => {
           cols="30"
           rows="10"
           onChange={handleChange}
-          value={formState.summary}
+          value={formState.notes}
         ></textarea>
         <button className="submit-button" type="submit">
           Create Schedule
