@@ -7,13 +7,20 @@ const AttractionCard = ({ setSchedule, attraction, scheduleId }) => {
   const addToList = async (e) => {
     e.preventDefault()
 
-    const newAttraction = await axios.put(
-      `${BASE_URL}/schedule/${scheduleId}`,
-      attraction
-    )
-    const updateList = await axios.get(`${BASE_URL}/schedule/${scheduleId}`)
-    console.log(updateList)
-    setSchedule(updateList.data)
+    const validateSchedule = async () => {
+      if (scheduleId === undefined) {
+        alert('Create your scheudle first, then add attractions')
+      } else {
+        const newAttraction = await axios.put(
+          `${BASE_URL}/schedule/${scheduleId}`,
+          attraction
+        )
+        const updateList = await axios.get(`${BASE_URL}/schedule/${scheduleId}`)
+        console.log(updateList)
+        setSchedule(updateList.data)
+      }
+    }
+    validateSchedule()
   }
 
   return (

@@ -68,6 +68,7 @@ const Schedule = (props) => {
             cols="30"
             onChange={handleChange}
             value={formState.date}
+            required
           />
           <label className="label notesField" htmlFor="notes">
             Schedule Notes:
