@@ -1,57 +1,64 @@
-# Ride-Guide
-
-SEI 9-19 Full Stackathon
+![Full-Stack Kingdom](./images/header_FSK.png)
 
 ## Date: Nov 2, 2022
 
-### Group Project Members:
+---
 
-Olivia Schwartz,
-Josh Levine,
-Roberto J Rodriguez,
-Madeline Ashley
+### **_Team Members_**
 
-### [GitHub](https://github.com/mashbash2150/Ride-Guide) | [Trello Board](https://trello.com/b/P81pk3NA/theme-park-stack-a-thon) | [Heroku App](https://full-stack-kingdom.herokuapp.com/)
+#### Josh Levine [Website]() | [GitHub](https://github.com/jadlevine) | [LinkedIn](https://www.linkedin.com/in/joshua-adam-levine/)
+
+#### Olivia Schwartz [Website]() | [GitHub]() | [LinkedIn]()
+
+#### Roberto J Rodriguez [Website]() | [GitHub]() | [LinkedIn]()
+
+#### Madeline Ashley [Website]() | [GitHub]() | [LinkedIn]()
 
 ---
 
 ### **_Description_**
 
-Ride Guide is an app that will help park attendees make the most of their day at Full-Stack Kingdom. With the ability to create ride wish lists according to wait times, height restrictions, ratings, and more, Ruide Guide is the ultimate theme park companion.
-
-####
+A MERN stack application for planning a day at the fictional "Full-Stack Kingdom".
 
 ---
 
-### **_Technologies_**
+### **_Technologies Used_**
 
-####
+![Tech Used](./images/tech_banner_FSK.png)
 
-This app will be built using MERN stack technologies:
+---
 
-MongoDB for hosting user and maker data
-Express/Node as the web framework/server by which front and back ends are connected
-React to power the front end web UI
+### **_Getting Started_**
+
+# JAL--> [Heroku link needs activated](https://full-stack-kingdom.herokuapp.com/)
+
+To use this application, use the deployed version on Heroku, [here]()
+
+You can see the planning of this project on [Trello](https://trello.com/b/P81pk3NA/theme-park-stack-a-thon)
+
+Using the application
+
+1. Begin by creating a schedule in the left panel. Include a date, and any notes, then click the **Create Schedule** button.
+2. Scroll through the list of attractions in the right panel. For each attraction, you can view details about the attraction, and if interested, click the **Add to Schedule** button. The scheudle will automatically be updated anytime you add an attraction.
+3. To start over, click the **Delete Schedule** button.
+
+#JAL --> CONFIRM DELETE SCHEDULE BUTTON
 
 ---
 
 ### **_Screenshots_**
 
-####
+#### Home Page
 
-#### Application Home Page
+![home page](./images/home_page_screenshot_FSK.png)
 
-[![Screen-Shot-2022-11-02-at-10-56-37-AM.png](https://i.postimg.cc/1zS0sp6Q/Screen-Shot-2022-11-02-at-10-56-37-AM.png)](https://postimg.cc/xXsNPNtx)
+#### Scheduled Attractions
 
-#### Schedule with Scheduled Attractions
-
-[![Screen-Shot-2022-11-02-at-11-25-46-AM.png](https://i.postimg.cc/vBM0qJX5/Screen-Shot-2022-11-02-at-11-25-46-AM.png)](https://postimg.cc/DWjQmY9z)
-
----
+## ![scheduled attractions](./images/scheduled_attractions_screenshot_FSK.png)
 
 ### **_Future Updates_**
 
-####
+# JAL --> Beef this up, add completed stuff from trello... change completed things to strikethrough?
 
 - [x] Bug Fix Complete
 - [ ] Time Budget
@@ -61,7 +68,5 @@ React to power the front end web UI
 ---
 
 ### **_Credits_**
-
-####
 
 #### Markdown Cheatsheet: [MarkdownGuide.org](https://www.markdownguide.org/cheat-sheet/)

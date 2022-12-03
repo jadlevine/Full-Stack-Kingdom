@@ -1,5 +1,5 @@
 {
-  "name": "ride-guide",
+  "name": "Full-Stack-Kingdom",
   "version": "1.0.0",
   "description": "SEI 9-19 Full Stackathon",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mashbash2150/Ride-Guide.git"
+    "url": "git+https://github.com/jadlevine/Full-Stack-Kingdom"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mashbash2150/Ride-Guide/issues"
+    "url": "https://github.com/jadlevine/Full-Stack-Kingdom/issues"
   },
-  "homepage": "https://github.com/mashbash2150/Ride-Guide#readme",
+  "homepage": "https://github.com/jadlevine/Full-Stack-Kingdom#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
