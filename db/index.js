@@ -7,12 +7,10 @@ let dbUrl =
     : 'mongodb://127.0.0.1:27017/themePark'
 
 mongoose
-  // .connect(process.env.MONGODB_URI)
   .connect(dbUrl)
   .then(() => {
     console.log(
       `Successfully connected to MongoDB! at ${process.env.MONGODB_URI}`
-      // `Successfully connected to MongoDB!`
     )
   })
   .catch((e) => {
