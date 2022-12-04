@@ -6,6 +6,8 @@
 
 ### **_Team Members_**
 
+# JAL --> add your portfolio website, once it is up and running
+
 #### Josh Levine [Website]() | [GitHub](https://github.com/jadlevine) | [LinkedIn](https://www.linkedin.com/in/joshua-adam-levine/)
 
 #### Olivia Schwartz [Website]() | [GitHub]() | [LinkedIn]()
