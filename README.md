@@ -6,13 +6,13 @@
 
 ### **_Team Members_**
 
-#### Josh Levine [Website]() | [GitHub](https://github.com/jadlevine) | [LinkedIn](https://www.linkedin.com/in/joshua-adam-levine/)
+#### Josh Levine [Website](https://josh-levine.surge.sh/) | [GitHub](https://github.com/jadlevine) | [LinkedIn](https://www.linkedin.com/in/joshua-adam-levine/)
 
-#### Olivia Schwartz [Website]() | [GitHub]() | [LinkedIn]()
+#### Olivia Schwartz [GitHub](https://github.com/OliviaSchwartz) | [LinkedIn](https://www.linkedin.com/in/olivia-c-schwartz/)
 
-#### Roberto J Rodriguez [Website]() | [GitHub]() | [LinkedIn]()
+#### Roberto J Rodriguez [GitHub](https://github.com/robertojrodriguez21) | [LinkedIn](https://www.linkedin.com/in/robertojrodriguez21/)
 
-#### Madeline Ashley [Website]() | [GitHub]() | [LinkedIn]()
+#### Madeline Ashley [GitHub](https://github.com/mashbash2150) | [LinkedIn](https://www.linkedin.com/in/madeline-ashley/)
 
 ---
 
